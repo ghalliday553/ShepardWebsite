@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+}
+p {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+}
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}               
+table tr {
+    font-size: 20px;
+    border-bottom: 1px solid #C4C4C4;
+}
+table td {
+    padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .background {
+        height: 500px !important;
+        background-position: center !important;
+    }
+    .musicChildren {
+        flex-direction: column;
+        justify-content: space-evenly !important;
+        height: 380px !important;
+        padding-top: 0 !important;
+        align-items: center !important; 
+    }   
+    .music {
+        height: 700px;
+    }
+    .upcomingShows {
+        height: 650px !important;
+    }
+    .about {
+        height: 800px !important;
+    }
+    iframe {
+        width: 80%;
+        height: 150px;
+    }
+    .contact p {
+        font-size: 14px !important;
+    }  
+}           
